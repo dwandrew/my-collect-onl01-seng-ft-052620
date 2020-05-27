@@ -3,7 +3,7 @@ def my_collect(array)
     i=0;
     collection =[]
     while i<array.length;
-    collection << yield(array[i].split(' ')[0])
+    collection << yield(array[i].split(' ').first)
     end
   else "No block given"
 end
