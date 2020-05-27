@@ -4,6 +4,7 @@ def my_collect(array)
     collection =[]
     while i<array.length;
     collection << yield(array[i].split(' ')[0])
+    end
   else "No block given"
 end
 collection
